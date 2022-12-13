@@ -82,7 +82,7 @@ div#content {
 }
 
 img#avatar {
-	width: 250px;
+	width: 20%;
 	float: right;
     margin-top: 3em;
     margin-left: 2em;
@@ -93,7 +93,7 @@ div#content h1 {
 	font-size: 25px;
 }
 
-/* responsive, form small screens, use 13px font size */
+/* responsive, for small screens*/
 @media (max-width: 1024px) {
     header {
         font-size: 11px;
@@ -104,6 +104,14 @@ div#content h1 {
 	}
 	
 	img#avatar {
-		width: 150px;
+		width: 30%;
+	}
+	
+	#navbar {
+		height: 4em;
+	}
+	
+	#navbar a {
+		line-height: 4em;
 	}
 }
