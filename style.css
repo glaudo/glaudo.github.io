@@ -94,6 +94,11 @@ div#content h1 {
 	font-size: 25px;
 }
 
+span#offices {
+    display: inline-block;
+    vertical-align: text-top;
+}
+
 /* responsive, for mobile*/
 @media (max-width: 1040px) {
     div#content{
